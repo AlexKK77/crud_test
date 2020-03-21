@@ -1,0 +1,98 @@
+body {
+    font-size: 18px;
+}
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+h2 {
+    text-align: center;
+    font-size: 28px;
+}
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 5px;
+}
+tr:hover {
+    background: #F5F5F5;
+}
+.book-form {
+    width: 50%;
+    margin: 20px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 5px;
+}
+.book-form__item {
+    margin: 10px 0px 10px 0px;
+}
+.book-form__item label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.book-form__item input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.book-form__btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #689a62;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.book-form__btn.book-form__btn_search {
+    background: #9a628e;
+}
+.book-form__btn.book-form__btn_new {
+    background: #c71356;
+}
+.book-form__edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #333; 
+    background: #97dae4; 
+    border: 1px solid #333;
+    width: 50%;
+    text-align: center;
+}
+.btn-edit{
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #5d94c3;
+}
+.btn-del{
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #e66f6f;
+}
